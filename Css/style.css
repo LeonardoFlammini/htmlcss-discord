@@ -213,53 +213,94 @@ main section .box-piccola p,
 
 /* footer  */
 
+footer .container{
+  flex-wrap: wrap;
+}
+
 footer {
   background-color: #23272A;
-
+  color: white;
 }
-
 .footer-up{
-  padding: 20px;
-  border-bottom: 1px solid #AFAFAF; /* debug */
-  height: 550px; /* debug */
-  
+  width: 100%;
+  padding: 80px 0;
+  border-bottom: 1px solid #5865F3;
 }
 
-.footer-box-grande,
-.footer-box{
-  height: 500px; /* debug */
+.footer-up .social{
+  width: 30%;
 }
 
-.footer-box-grande{
-  background-color: #F6BFCB; /* debug */
-  flex-grow: 2;
+#ita {
+  width: 30px;
+  margin-right: 10px;
+}
+.social .language {
+  align-items: center;
+  padding-top: 20px;
 }
 
-.footer-box{
-  background-color:#4DB3AB; /* debug */
-  border-color: white; /* debug */
-  flex-grow: 1;
+.language .arrow {
+  margin-left: 5px;
+}
+
+.social .icons {
+  font-size: 2rem;
+  padding-top: 20px;
+}
+
+.footer-up .menu{
+  width: 70%;
+}
+
+.social .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #5865F3;
+  padding-top: 20px;
+}
+
+.footer-up .menu .col {
+  flex-basis: 25%;
+}
+
+.footer-up .menu .product-title,
+.footer-up .menu .company-title,
+.footer-up .menu .resources-title,
+.footer-up .menu .rules-title {
+  color: #5865F3;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu ul li {
+  padding-top: 10px;
+}
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.menu ul li a:hover {
+  text-decoration: underline;
 }
 
 .footer-bottom {
-  padding-top: 20px;
-  height: 100px; /* debug */
-
-}
-
-.footer-bottom .container{
-  background-color: #7AF6D4; /* debug */
+  flex-basis: 100%;
   justify-content: space-between;
-  align-items: center;
-  height: 70px; /* debug */
+  padding: 20px 0;
 }
 
-.footer-bottom .logo,
-.footer-bottom .button {
-  height: 30px; /* debug */
-  width: 70px; /* debug */
-  background-color: #F5B5C0; /* debug */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+footer .footer-bottom .btn.purple{
+  background-color: #5865F3;
+  color: white;
+}
+
+footer .footer-bottom .btn.purple:hover {
+  background-color: #9098ea;
 }
