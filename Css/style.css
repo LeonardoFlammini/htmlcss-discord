@@ -105,7 +105,7 @@ header nav ul li a:hover {
 }
 /* main  */
 
-main .container {
+main .jumbotron .container {
   padding: 40px;
 }
 
@@ -159,6 +159,10 @@ main .jumbotron .container .row .col .btn.big.black:hover {
 
 /* sections  */
 
+main .container {
+  padding: 80px;
+}
+
 main section:nth-of-type(2n + 3) {
   background-color:#D3D3D3;
 }
@@ -167,19 +171,23 @@ main section:nth-of-type(2n + 3) {
   flex-direction: row-reverse;
 }
 
-.box-grande,
-.box-piccola {
-  height: 400px; /* debug */
-}
-
 .box-grande{
-  background-color: #1F8FFB; /* debug */
-  flex-grow: 2;
+  flex-basis: 60%;
+  padding-right: 20px;
 }
 
 .box-piccola{
-  background-color: #F6BFCB; /* debug */
-  flex-grow: 1;
+  flex-basis: 40%;
+}
+
+main section .box-piccola h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+main section .box-piccola p {
+  margin-top: 24px;
+  line-height: 1.625;
 }
 
 .cta-box {
