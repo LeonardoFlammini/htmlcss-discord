@@ -185,15 +185,30 @@ main section .box-piccola h1 {
   font-weight: bold;
 }
 
-main section .box-piccola p {
+main section .box-piccola p,
+.cta-box p {
   margin-top: 24px;
   line-height: 1.625;
 }
 
 .cta-box {
-  background-color: #418B24;  /* debug */
-  height: 700px; /* debug */
-  flex-grow: 1;
+  text-align: center;
+}
+
+.cta-box h1 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+.cta-box .btn.big.purple {
+  display: inline-block;
+  background-color: #5865F3;
+  color: white;
+  margin-top: 40px;
+}
+
+.cta-box .btn.big.purple:hover {
+  background-color: #9098ea;
 }
 
 /* footer  */
