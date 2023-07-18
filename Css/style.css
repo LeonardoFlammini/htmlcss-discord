@@ -52,6 +52,22 @@ body {
   color: white;
 }
 
+.wave{
+  width: 100%;
+  align-items: flex-end;
+}
+
+.wave.white svg{
+  /* flex-basis: 100%;
+  min-height: 80px; */
+  fill: white;
+}
+
+.wave.grey svg{
+  /* flex-basis: 100%;
+  min-height: 80px; */
+  fill: #D3D3D3;
+}
 /* header  */
 
 header{
