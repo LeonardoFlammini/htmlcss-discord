@@ -25,6 +25,7 @@ body {
 }
 
 .btn {
+  /* display: inline-block; */
   justify-content: center;
   align-items: center;
   background-color: white;
@@ -131,6 +132,7 @@ main .jumbotron .container {
   margin: 0;
   background-image: url(../img/jumbo.png);
   background-size: cover;
+  background-position: center;
   /*height: 400px;  debug */
   padding: 0 20px;
 }
